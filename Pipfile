@@ -24,6 +24,7 @@ python-dotenv = "*"
 uwsgi = ">=2.0"
 uwsgitop = ">=0.11"
 uwsgi-tools = ">=1.1.1"
+ultraviolet-deposit = {path = "./../ultraviolet-deposit"}
 
 [requires]
 python_version = "3.8"
