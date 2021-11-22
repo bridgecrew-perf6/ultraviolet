@@ -63,27 +63,30 @@ body {
   .ui.grid > .row.footer-top {
     padding: 3rem 0;
   }
-  .ui.items > .item .extra.labels-actions {
-    > * {
-      margin: 0;
-    }
-    > [class*="right floated"] {
-      margin: 0 0 0 0.5rem;
-    }
+  .ui.items > .item .extra {
+    color: #757575;
+    &.labels-actions {
+      > * {
+        margin: 0;
+      }
+      > [class*="right floated"] {
+        margin: 0 0 0 0.5rem;
+      }
 
-    div {
-      &::after {
-        content: "\2022";
-        padding-right: 1rem;
-        padding-left: 1rem;
-      }
-      &:last-child::after {
-        content: "";
-        padding: 0;
-      }
-      &:last-of-type::after {
-        content: "";
-        padding: 0;
+      div {
+        &::after {
+          content: "\2022";
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        &:last-child::after {
+          content: "";
+          padding: 0;
+        }
+        &:last-of-type::after {
+          content: "";
+          padding: 0;
+        }
       }
     }
   }
@@ -215,6 +218,9 @@ body {
   .version-active {
     // a11y: must be lighter for adequate contrast
     background-color: #e9f3f9;
+    a:link {
+      color: @linkColorHover;
+    }
   }
 }
 .invenio-rdm-footer {
