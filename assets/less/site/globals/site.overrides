@@ -211,6 +211,11 @@ body {
   .text-muted {
     color: #646363;
   }
+
+  .version-active {
+    // a11y: must be lighter for adequate contrast
+    background-color: #e9f3f9;
+  }
 }
 .invenio-rdm-footer {
   width: 100%;
