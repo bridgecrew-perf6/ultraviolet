@@ -18,6 +18,7 @@ invenio-drafts-resources = "<0.14.0,>=0.13.4"
 invenio-rdm-records = "<0.33.0,>=0.32.4"
 invenio-records-permissions = "<0.13.0,>=0.12.1"
 invenio-records-resources = "<0.17.0,>=0.16.12"
+invenio-saml = "~=1.0.0a1"
 marshmallow-utils = "<0.6.0,>=0.5.2"
 nbconvert = {extras = ["execute"], version = ">=4.1.0,<6.0.0"}
 python-dotenv = "*"
